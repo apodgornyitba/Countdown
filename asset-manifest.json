@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Countdown/static/css/main.42fa80b5.css",
+    "main.js": "/Countdown/static/js/main.d6a1a4ec.js",
+    "static/media/RedHatText-Bold.ttf": "/Countdown/static/media/RedHatText-Bold.710fa6829252d684327b.ttf",
+    "static/media/bg-stars.svg": "/Countdown/static/media/bg-stars.166881a1c03d6b1239f5dc4250bf85ad.svg",
+    "static/media/icon-instagram.svg": "/Countdown/static/media/icon-instagram.b94ff26a97e94b0abe8b977ee578df8a.svg",
+    "static/media/icon-pinterest.svg": "/Countdown/static/media/icon-pinterest.ea0db8e7cb2520eeee512b34e03d9bd0.svg",
+    "static/media/pattern-hills.svg": "/Countdown/static/media/pattern-hills.815d688fd937623063b5c111be9fc999.svg",
+    "index.html": "/Countdown/index.html",
+    "static/media/icon-facebook.svg": "/Countdown/static/media/icon-facebook.a9208377508aef178a3de0fe0249cff5.svg",
+    "main.42fa80b5.css.map": "/Countdown/static/css/main.42fa80b5.css.map",
+    "main.d6a1a4ec.js.map": "/Countdown/static/js/main.d6a1a4ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42fa80b5.css",
+    "static/js/main.d6a1a4ec.js"
+  ]
+}
