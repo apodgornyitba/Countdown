@@ -2,15 +2,31 @@
     display: flex;
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient(to bottom, var(--very-darker-blue), 20%,var(--very-dark-purple));
+    background: linear-gradient(to bottom, var(--very-darker-blue),var(--very-dark-purple));
     font-family: 'Red Hat Text', sans-serif;
 }
 
 .icon{
+    transition: color 0.3s ease;
     padding: 1%;
+}
+
+.icon:hover {
+    color: var(--soft-red);
 }
 
 .stars h1{
     color: var(--white);
     font-family: inherit;
+    letter-spacing: 5px;
+}
+
+.starsContent{
+    display: grid;
+    justify-items: center;
+    margin-top: 5%;
+}
+
+.counterContainer{
+    display: flex;
 }

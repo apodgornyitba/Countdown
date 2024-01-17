@@ -1,0 +1,36 @@
+.counter{
+    padding-top: 75px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.numberTop {
+    transform: translateY(49%); /* Vertically center the number */
+    width: 110px; /* Match the width of the cards */
+    text-align: center;
+    font-size: 5rem;
+    color: var(--dark-soft-red); /* Adjust the color as needed */
+}
+
+.numberBottom {
+    transform: translateY(-51%); /* Vertically center the number */
+    width: 110px; /* Match the width of the cards */
+    text-align: center;
+    font-size: 5rem;
+    color: var(--soft-red); /* Adjust the color as needed */
+}
+
+.text {
+    color: var(--grayish-blue);
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.custom-hr {
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-top: 1px solid var(--very-darker-blue);
+}
