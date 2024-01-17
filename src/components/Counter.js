@@ -24,6 +24,10 @@ function Counter(props) {
                     position: "absolute",
                     overflow: "hidden",
                     boxShadow: 'none',
+                    borderBottomRightRadius: '0',
+                    borderTopRightRadius: '10px',
+                    borderTopLeftRadius: '10px',
+                    borderBottomLeftRadius: '0',
                 }}
             >
                 <div className="numberTop">{props.value}</div>
@@ -41,6 +45,10 @@ function Counter(props) {
                     transform: `rotateX(${flip ? '180deg' : '0'})`,
                     transformOrigin: 'bottom',
                     transition: 'transform 0.5s',
+                    borderBottomRightRadius: '0',
+                    borderTopRightRadius: '10px',
+                    borderTopLeftRadius: '10px',
+                    borderBottomLeftRadius: '0',
                 }}
             >
                 <div className="numberTop">{props.value}</div>
@@ -87,7 +95,11 @@ function Counter(props) {
                     alignItems: "flex-start",
                     justifyContent: "center",
                     overflow: "hidden",
-                    boxShadow: '0 5px var(--very-darker-blue)',
+                    boxShadow: '0 10px var(--very-darker-blue)',
+                    borderBottomRightRadius: '10px',
+                    borderTopRightRadius: '0',
+                    borderTopLeftRadius: '0',
+                    borderBottomLeftRadius: '10px',
                 }}
             >
                 <div className="numberBottom">{value}</div>
